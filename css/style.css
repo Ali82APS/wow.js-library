@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1000px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px;
+}
