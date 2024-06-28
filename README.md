@@ -1,30 +1,29 @@
- <h1 align="center">AOS</h1>
-
-*___How to setup [AOS](https://michalsnik.github.io/aos/)___*
- <hr>
- <hr>
+*___How to setup [wow.js](https://wowjs.uk/)___*
  <hr>
  
- ## 1.add css CDN to `<head>`:
->```sh
-><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
->```
-## 2. add js CDN before close `</body>`
+ ## Link to the CSS animation library:
+ >Link to [Animate.css](https://animate.style/)
+>>```sh
+>><link rel="stylesheet" href="css/animate.css">
+>>```
+
+## Link and activate wow.js:
 >```sh
 ><script src="js/wow.min.js"></script>
 >```
->```sh
+> ```sh
 ><script>
 > new WOW().init();
 > </script>
 >```
 
-## 3. Set animation using data-aos attribute:
->```sh
-><div data-aos="fade-in"></div>
->```
- <hr>
- <hr>
- <hr>
- 
- <h2 align="end">Done!</h2>
+## Make an element revealable & 2Choose the animation style:
+>Add the CSS class .wow to a HTML element: it will be invisible until the user scrolls to reveal it.
+>
+>Pick an animation style in [Animate.css](https://animate.style/) , then add the CSS class to the HTML element
+>>```sh
+>><div class="wow animate__animated animate__bounceInUp">
+  >>Content to Reveal Here
+>></div>
+>>```
+
